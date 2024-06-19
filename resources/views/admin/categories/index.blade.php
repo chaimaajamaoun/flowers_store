@@ -7,7 +7,7 @@
                     <a href="{{ route('admin.categories.create') }}" class="btn btn-primary float-right">
                         Create
                     </a>
-                </h3>     
+                </h3>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
@@ -46,7 +46,7 @@
                                                 <i class="fa fa-pencil-alt"></i>
                                             </a>
                                             <form onclick="return confirm('are you sure ?');" action="{{ route('admin.categories.destroy', $category->id) }}" method="post">
-                                                @csrf 
+                                                @csrf
                                                 @method('delete')
                                                 <button type="submit" class="btn btn-danger"><i class="fa fa-trash"></i></button>
                                             </form>

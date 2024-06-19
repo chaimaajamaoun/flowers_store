@@ -1,13 +1,15 @@
+<style>
+
+</style>
 @extends('layouts.frontend')
 
 @section('content')
     <!-- Breadcrumb Section Begin -->
-    <section class="mb-5">
-      <div class="container">
-          <div class="hero__item set-bg" data-setbg="{{ asset('frontend/img/hero/banner.jpg') }}">
+    <section class="mb-5" >
+      <div class="container" >
+          <div class="hero__item set-bg"  data-setbg="{{ asset('https://gardeneo.pl/wp-content/uploads/2022/02/kwiaty-na-rocznice-slubu.jpg') }}" style="height: 700px">
               <div class="hero__text">
-                  <span>FRUIT FRESH</span>
-                  <h2>Vegetable <br />100% Organic</h2>
+                  <span>Flowers</span>
                   <p>Free Pickup and Delivery Available</p>
                   <a href="#" class="primary-btn">SHOP NOW</a>
               </div>
@@ -25,7 +27,7 @@
               <div class="col-lg-3">
                 <div
                   class="categories__item set-bg"
-                  data-setbg="{{ $menu_category->photo->getUrl() }}"
+
                 >
                   <h5><a href="{{ route('shop.index', $menu_category->slug) }}">{{ $menu_category->name }}</a></h5>
                 </div>
@@ -43,7 +45,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section-title">
-              <h2>Featured Product</h2>
+              <h2>Products</h2>
             </div>
           </div>
         </div>
@@ -59,12 +61,12 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <div class="banner__pic">
-              <img src="{{ asset('frontend/img/banner/banner-1.jpg') }}" alt="" />
+              <img src="{{ asset('https://i.pinimg.com/736x/34/79/03/3479035ede3df7efc82e6dd626caa1b2.jpg') }}" alt="" style="height: 700px" />
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
             <div class="banner__pic">
-              <img src="{{ asset('frontend/img/banner/banner-2.jpg') }}" alt="" />
+              <img src="{{ asset('https://i.pinimg.com/564x/26/5e/6d/265e6d0671fada5731fa2ba9ecc282f2.jpg') }}" alt=""style="height: 646px; margin-left:90px" />
             </div>
           </div>
         </div>

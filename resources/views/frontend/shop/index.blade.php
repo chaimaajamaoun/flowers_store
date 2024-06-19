@@ -3,12 +3,12 @@
 @section('content')
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="{{ asset('frontend/img/breadcrumb.jpg') }}">
+    <section class="breadcrumb-section set-bg" data-setbg="{{ asset('https://i.pinimg.com/564x/34/82/71/34827167d3abd61384bca4b662d5f0ee.jpg') }}">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <div class="breadcrumb__text">
-              <h2>Organi Shop</h2>
+              <h2>Flora</h2>
               <div class="breadcrumb__option">
                 <a href="./index.html">Home</a>
                 <span>Shop</span>
@@ -28,7 +28,7 @@
             @include('frontend.shop.sidebar')
           </div>
           <div class="col-lg-9 col-md-7" id="product-shop">
-           
+
           </div>
         </div>
       </div>

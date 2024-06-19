@@ -1,6 +1,58 @@
+
 @extends('layouts.app')
 
 @section('content')
+<style>
+/* Custom styles inline for demonstration, ideally in custom.css */
+body {
+    background-color: #f0f9f8; /* Background baby green */
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.card-header {
+    background-color:  #fd4f9a; /* Pink background for header */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.form-control:focus {
+    border-color:  #fd4f9a; /* Pink border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(255, 135, 135, 0.25);
+}
+
+.btn-primary {
+    background-color:  #fd4f9a; /* Pink button */
+    border-color:  #fd4f9a;
+}
+
+.btn-primary:hover {
+    background-color: #fa3f90;
+    border-color: #fa3f90;
+}
+
+.btn-link {
+    color:  #fd4f9a; /* Pink link */
+}
+
+.btn-link:hover {
+    color:#fa3f90;
+}
+
+.form-check-input:checked {
+    background-color:  #fd4f9a; /* Pink for checkbox */
+    border-color:  #fd4f9a;
+}
+</style>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

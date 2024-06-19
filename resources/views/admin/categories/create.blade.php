@@ -7,11 +7,11 @@
                     <a href="{{ route('admin.categories.index') }}" class="btn btn-primary float-right">
                         Go Back
                     </a>
-                </h3>     
+                </h3>
             </div>
             <div class="card-body">
                 <form action="{{ route('admin.categories.store') }}" method="post">
-                    @csrf 
+                    @csrf
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" name="name" class="form-control">
@@ -47,7 +47,7 @@
 <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
 @endpush
 
-@push('script-alt')   
+@push('script-alt')
 <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
     <script>
     Dropzone.options.photoDropzone = {
